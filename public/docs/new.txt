@@ -1,0 +1,125 @@
+
+design
+	
+header
+	add logo
+	
+	your proffessional website
+	built with zeal
+	we create great products
+	we really love what we do
+	and we do what we love
+
+
+	
+We Build Great Products With Technology
+	We are more than happy to offer you...
+	(languages, specialization)
+
+
+
+what we 'have' built
+	
+	change switch - governments, ngos, companies, individuals
+	redesign display
+		spacing, border, hover effects, waypoints
+		screenshots, descriptions
+
+
+	mywebsite.nairobi.io
+	localbuzz.co.ke
+	soundprogress.co.uk
+	thedevs.org
+	nairobi go ke
+	eurohacktrip.org
+
+	add
+		sacco.nairobi.io
+		books.nairobi.io
+		carbon.nairobi.io
+		events.nairobi.io - afro events
+
+	coming soon
+		vpesa
+		maidsurfing.com
+		paintsurfing.com
+		salonsurfing.com
+		afya.net
+
+
+the league
+	
+	tim
+	eugene
+	reuben cummings
+	KIERAN HARRINGTON-BALL
+	Michael Bumann
+	Emanuel Munene - Mbegu Capital
+	david
+	lee
+	patrick
+	erik
+
+our clients
+	kent gov uk
+	nairobi gov
+	seek - county govs, zalego, one acre fund, refunite
+
+
+our partners
+	ihub
+	mlab
+	okhi -get directions
+	devs.mobi
+	nairobi dev school
+	whiteblackbird.co
+	vitumob.com
+
+
+	ict auth
+
+testimonials == tweets
+	afrinnovator
+	erik hersman
+	gary vee
+	vc
+	mbugua njihia
+	
+	greg
+	josiah
+	kaburo
+	john kieti
+
+
+
+footer
+	proudly built in africa
+	map - africa + address
+	silhoutte > nairobi city
+	flag > kenya
+
+	a working contact form
+
+bottom
+	real social links
+
+
+/////
+
+
+effects
+	laravel
+	scrolling waypoints
+	edit in place - x-editor
+	
+removed
+	languages, specialization
+	pricing tables
+	"making it real" stats
+
+
+
+
+laravel
+	add environments, hide db details from github
+	add xeditor

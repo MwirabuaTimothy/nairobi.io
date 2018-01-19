@@ -1,0 +1,29 @@
+done
+----
+add laravel
+new homepage design
+fix fontawesome, designs
+design mywebsite.nairobi.io
+fix layerslider
+
+
+todo
+----
+add xeditor
+
+true testimonials
+true details on top
+
+partners
+	mobidev
+	whiteblackbird
+	eneza education
+	kazeeki/nerevu
+	abacus
+	mbegu capital
+	
+team
+	biz dev - jacque
+	front end web - kivuva
+	mobile dev - 
+

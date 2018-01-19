@@ -1,0 +1,40 @@
+<?php
+
+namespace App\Mail;
+
+use App\User;
+use Illuminate\Bus\Queueable;
+use Illuminate\Mail\Mailable;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
+
+// class EmailVerification extends Mailable implements ShouldQueue
+// queueing interfers with using database transactions for registration
+
+class EmailVerification extends Mailable
+{
+    use Queueable, SerializesModels;
+
+    public $user;
+
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public function __construct(User $user)
+    {
+        $this->user = $user;
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        return $this->view('emails.verification')
+            ->subject('Welcome To '.env('APP_NAME'));
+    }
+}
