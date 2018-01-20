@@ -26,11 +26,22 @@ class HomeController extends Controller
 	/**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Http\Response
+     * @return Redirect
      */
     public function index()
     {
-        return view('home');
+        return redirect('software');
+    }
+
+
+	/**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function software()
+    {
+        return view('software');
     }
 
     /**

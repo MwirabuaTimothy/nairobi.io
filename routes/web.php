@@ -18,6 +18,7 @@ Route::resource('tests', 'TestsController', ['except' => ['create', 'store', 'up
 
 // Static Routes
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@home'));
+Route::get('/software', array('as' => 'software', 'uses' => 'HomeController@software'));
 Route::get('about', array('as' => 'about', function(){ return View::make('aboutus');}));
 Route::post('contact', ['as' => 'contact', 'uses' => 'HomeController@postContact']);
 

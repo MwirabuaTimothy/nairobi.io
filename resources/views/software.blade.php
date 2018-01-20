@@ -11,7 +11,6 @@
         <img src="/img/bg/nairobi.jpg"/>
         
         <h1 class="top">We Create</h1>
-
         <h1 class="bottom">Great Products</h1>
 
     </section>

@@ -5,7 +5,7 @@
 
     <div class="header-in clearfix">
 
-      <div id="top-left" class="col-md-6 col-sm-12 col-xs-12">
+      <div id="top-left">
           <h1 id="logo"><a href="/">NAIROBI.IO</a></h1> 
           <br/>
           <h4 id="creed">Tech In Nairobi</h4>
@@ -33,12 +33,20 @@
         <ul>
           <?php $home = Request::segment(1) ? route('home') : ''; ?>
           <!-- <li><a href="{{ $home }}/blog" id="blog">Blog</a></li> -->
-          <li><a href="{{ $home }}#about">About</a></li>
-          <li><a href="{{ $home }}#folio">Folio</a></li>
+          <li><a href="{{ $home }}/software" class="{{Request::segment(1) == 'software' ? 'active' : '' }}">Software</a></li>
+          <li><a href="{{ $home }}/#events" alt="Coming Soon" class="">Events</a></li>
+          <li><a href="{{ $home }}/#media" alt="Coming Soon" class="">Media</a></li>
+          <li><a href="{{ $home }}/#hub" alt="Coming Soon" class="">The Hub</a></li>
+          <li><a href="{{ $home }}/#academy" alt="Coming Soon" class="">Academy</a></li>
+          <li><a href="{{ $home }}/#community" alt="Coming Soon" class="">Community</a></li>
+          <li><a href="{{ $home }}/#about" alt="Coming Soon" class="">About</a></li>
+          <li><a href="{{ $home }}/#partnerships" alt="Coming Soon" class="">Partnerships</a></li>
+          <!-- <li><a href="{{ $home }}#about">About</a></li> -->
+          <!-- <li><a href="{{ $home }}#folio">Folio</a></li> -->
           <!-- <li><a href="{{ $home }}#partners">Partners</a></li> -->
           <!-- <li><a href="{{ $home }}#testimonials">Testimonials</a></li> -->
           <!-- <li><a href="{{ $home }}#team">Team</a></li> -->
-          <li><a href="#contact">Contacts</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
 
       </nav><!--/ #navigation-->
