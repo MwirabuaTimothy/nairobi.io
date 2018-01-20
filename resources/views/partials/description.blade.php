@@ -49,5 +49,5 @@
 
         </div>     
 
-    </section><!--/ .section-->
+    </section>
 </section>
