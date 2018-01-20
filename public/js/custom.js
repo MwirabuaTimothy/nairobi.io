@@ -28,8 +28,11 @@ $(document).ready(function(){
         target = $(hash);
         offset2 = target.offset().top - offset;
         
-        $('#navigation').hide()
-        
+        var w = $(window).width()
+        if(w < 993){
+        	$('#navigation').hide()
+        }
+
         if (target[0]) {
             setTimeout(function(){
 	            $('html,body').animate({
