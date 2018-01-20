@@ -3357,7 +3357,7 @@ section#folio ul#portfolio-items hgroup.extra-content h2 {
 	top: 50%; 
 }
 
-#description .sliders {
+#about .sliders {
 	background-image: url('../img/banner/bg.jpg'); 
 	background-size: auto 100%;
 	/*min-height: 500px;*/
@@ -3365,21 +3365,21 @@ section#folio ul#portfolio-items hgroup.extra-content h2 {
 	width: 100%;
 }
 
-#description div.devices {
+#about div.devices {
 	text-align: center;
 }
 
-#description div.devices img {
+#about div.devices img {
 	max-height: 100%;
 }
-#description div.explain {
+#about div.explain {
 	display: inline-block;
 	padding: 2em 1em 3em 1em;
 	font-family: sans-serif;
 	color: #fff;
 }
 
-#description div.explain div.title {
+#about div.explain div.title {
 	data-speed:400;
 	data-start:3500;
 	data-easing: easeOutExpo;
@@ -3389,7 +3389,7 @@ section#folio ul#portfolio-items hgroup.extra-content h2 {
     line-height: 1.5em;
 	text-transform: uppercase;
 }
-#description div.explain div.subtitle {
+#about div.explain div.subtitle {
 	data-speed:400;
 	data-start:4000;
 	data-easing: easeOutExpo;
@@ -3398,7 +3398,7 @@ section#folio ul#portfolio-items hgroup.extra-content h2 {
 	font-weight: 300;
 }
 
-#description div.explain div.text {
+#about div.explain div.text {
 	data-speed:400;
 	data-start:4500;
 	data-easing: easeOutExpo;

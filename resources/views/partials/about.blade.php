@@ -1,72 +1,53 @@
+<section id="about" class="page">
+    <section class="section">
 
-<section id="intro" class="page">
+        <hgroup class="slogan align-center">
+          <div class="container">
+            <h1>We Create <span>Great Products</span> With <span>Technology</span></h1>
 
-    <section class="section padding-off">
+            <ol class="flex-control-nav flex-control-thumbs">
 
-        <div id="layerslider-container">
+              <li><i class="icon-paper-plane-2"></i><h6>Ideas</h6></li>
 
-            <div id="layerslider">
+              <li><i class="icon-pencil-7"></i><h6>Design</h6></li>
 
-                <div class="ls-layer" style="text-align:center; slidedirection: left; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; timeshift: -500;">
+              <li><i class="icon-code"></i><h6>Development</h6></li>
 
-                    <img alt="" class="ls-bg" src="/img/bg/nairobi.jpg">
+              <li><i class="icon-chart-bar"></i><h6>Optimization</h6></li>
 
-                    <h1 class="ls-s2" style="left:auto; top: 43%; width:100%; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-                        <!-- We Do Awesome -->
-                        We Create
-                    </h1>
+              <li><i class="icon-comment-6"></i><h6>Support</h6></li>
 
-                    <h1 class="ls-s2" style="left:auto; top: 57%; width:100%; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-                        <!-- Web Apps -->
-                        Great Products
-                    </h1>
+            </ol>
 
-                </div><!--/ .ls-layer-->
+          </div>
+        </hgroup>
+              
+        <div class="sliders">
 
-                <div class="ls-layer" style="text-align:center; slidedirection: right; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; timeshift: -500;">
+          <div class="devices col-lg-6">
+            <img class="opacity" src="/img/banner/screens.png" alt="All Screens">
+          </div>
 
-                    <img alt="" class="ls-bg" src="/img/bg/central-park.jpg">
+          <div class="explain col-lg-6">
+              <div class="opacity title">
+                Professional Web & Mobile Apps
+              </div> <br/>
+              <!-- <div class="opacity subtitle">
+                 Responsive &amp; Elegant
+              </div> -->
+              <div class="opacity text">
 
-                    <h1 class="ls-s2" style="left:auto; top: 43%; width:100%; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-                        We really love
-                    </h1>
+                 <p>We specialize in developing responsive web apps and mobile apps 
+                 that express the missions of our clients effectively and look and feel great!</p> <br/>
 
-                    <h1 class="ls-s2" style="left:auto; top: 57%; width:100%; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-                        what we do
-                    </h1>
+                 <p>Whether its building, customizing or maintaining your company website, 
+                 mobile app or mission critical software, we can do that!</p> <br/>
 
-                </div><!--/ .ls-layer-->
+                 <p>And we have done it before...</p>
+              </div>
+          </div>
 
-                <div class="ls-layer" style="text-align:center; slidedirection: right; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; timeshift: -500;">
+        </div>     
 
-                    <!-- <img alt="" class="ls-bg" src="/img/bg/times-tower.jpg"> -->
-                    <img alt="" class="ls-bg" src="/img/bg/university-way.jpg">
-
-                    <h1 class="ls-s2" style="left:auto; top: 43%; width:100%; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-                        and we do
-                    </h1>
-
-                    <h1 class="ls-s2" style="left:auto; top: 57%; width:100%; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;">
-                        what we love!
-                    </h1>
-
-                </div><!--/ .ls-layer-->
-
-
-
-                <!--/ .ls-layer 78, 104, 108, 113, 202, 226-->
-
-            </div><!--/ #layerslider-->
-
-        </div><!--/ #layerslider-container-->   
-
-        <ul class="keydown">
-            <li class="up"></li>
-            <li class="left"></li>
-            <li class="down"></li>
-            <li class="right"></li>
-        </ul><!--/ .keydown-->  
-
-    </section><!--/ .section-->
-
-</section><!--/ .page-->
+    </section>
+</section>

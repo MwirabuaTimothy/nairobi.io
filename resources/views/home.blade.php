@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <!-- @ include('partials.about') -->
+    <!-- @ include('partials.intro') -->
 
 
     <section id="intro" class="page">
@@ -16,7 +16,7 @@
 
     </section>
 
-    @include('partials.description')
+    @include('partials.about')
 
     <!-- @ include('partials.details') -->
 

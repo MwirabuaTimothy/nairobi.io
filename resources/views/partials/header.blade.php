@@ -33,7 +33,7 @@
         <ul>
           <?php $home = Request::segment(1) ? route('home') : ''; ?>
           <!-- <li><a href="{{ $home }}/blog" id="blog">Blog</a></li> -->
-          <li><a href="{{ $home }}#description">About</a></li>
+          <li><a href="{{ $home }}#about">About</a></li>
           <li><a href="{{ $home }}#folio">Folio</a></li>
           <!-- <li><a href="{{ $home }}#partners">Partners</a></li> -->
           <!-- <li><a href="{{ $home }}#testimonials">Testimonials</a></li> -->
