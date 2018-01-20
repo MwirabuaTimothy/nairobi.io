@@ -25,7 +25,7 @@
         <div class="sliders">
 
           <div class="devices col-lg-6">
-               <img class="opacity" src="/img/banner/screens.png" alt="All Screens">
+            <img class="opacity" src="/img/banner/screens.png" alt="All Screens">
           </div>
 
           <div class="explain col-lg-6">
