@@ -11,7 +11,7 @@
 
               <li><i class="icon-pencil-7"></i><h6>Design</h6></li>
 
-              <li><i class="icon-code`"></i><h6>Development</h6></li>
+              <li><i class="icon-code"></i><h6>Development</h6></li>
 
               <li><i class="icon-chart-bar"></i><h6>Optimization</h6></li>
 
