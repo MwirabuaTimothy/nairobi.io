@@ -25,10 +25,10 @@ $(document).ready(function(){
     // add offset on scrolling to hash
     $('a[href*=#]:not([href="#"])').on('click', function(e) { //watch all scroll links
         e.preventDefault();
-        hash = $(e.target).attr('href');
-        offset = $('header#header').height()
+        var hash = $(e.delegateTarget).attr('href');
+        var offset = $('header#header').height()
         
-        target = $(hash);
+        var target = $(hash);
         offset2 = target.offset().top - offset;
         
         var w = $(window).width()
