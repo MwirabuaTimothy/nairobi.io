@@ -7,7 +7,7 @@
         <img src="/img/bg/sunset.jpg" class="w100"/>
         
         <h1 class="top">Lets Meet</h1>
-        <h1 class="bottom">& Discuss</h1>
+        <h1 class="bottom">& Talk Tech</h1>
 
     </section>
 
