@@ -23,28 +23,28 @@ $(document).ready(function(){
 
 
     // add offset on scrolling to hash
-    // $('a[href*=#]:not([href="#"])').on('click', function(e) { //watch all scroll links
-    //     e.preventDefault();
-    //     hash = $(e.target).attr('href');
-    //     offset = $('header#header').height()
+    $('a[href*=#]:not([href="#"])').on('click', function(e) { //watch all scroll links
+        e.preventDefault();
+        hash = $(e.target).attr('href');
+        offset = $('header#header').height()
         
-    //     target = $(hash);
-    //     offset2 = target.offset().top - offset;
+        target = $(hash);
+        offset2 = target.offset().top - offset;
         
-    //     var w = $(window).width()
-    //     if(w < 993){
-    //     	$('#navigation').hide()
-    //     }
+        var w = $(window).width()
+        if(w < 993){
+        	$('#navigation').hide()
+        }
 
-    //     if (target[0]) {
-    //         setTimeout(function(){
-	   //          $('html,body').animate({
-	   //              scrollTop: offset2
-	   //          }, 500);
-    //         }, 500)
-    //     }
-    //     // return false;
-    // })
+        if (target[0]) {
+            setTimeout(function(){
+	            $('html,body').animate({
+	                scrollTop: offset2
+	            }, 500);
+            }, 500)
+        }
+        // return false;
+    })
     // todo - scroll to the hash after loading page
 
 });
@@ -533,7 +533,7 @@ $(document).ready(function(){
 					$(this).children('ul').stop(true, true).fadeOut(50);
 				});
 				
-				self.nav.on('click', 'a', function (e) {
+				self.nav.on('click', 'a[href*=#]:not([href="#"])', function (e) {
 					var $this = $(this).parent('li'),
 						$href = $this.children('a').attr('href');
 					if (!self.checkHashLink($href)) {
