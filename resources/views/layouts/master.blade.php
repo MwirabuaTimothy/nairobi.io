@@ -13,7 +13,7 @@
 
     <!-- Google Web Fonts
     ================================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,700|Julius+Sans+One|Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
+    <link href='/fonts/julius.ttf' rel='stylesheet' type='text/css'>
 
     <!-- Meta -->
     <!-- Basic Page Needs
@@ -40,6 +40,7 @@
     <link media="all" type="text/css" rel="stylesheet" href="/css/layout.css"/>
     <link media="all" type="text/css" rel="stylesheet" href="/css/fontello.css"/>
     <link media="all" type="text/css" rel="stylesheet" href="/css/animation.css"/>
+    <link href="/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
         
     @yield('css')
 
@@ -89,11 +90,12 @@
    
     <!-- new flame -->
     <script src="/plugins/jquery.nicescroll.js"></script>
+    <script src="/plugins/waypoints.min.js"></script>
 
     <!-- JS Page Level -->           
-    <script src="/js/app.js"></script>
     <script src="/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="/js/app.js"></script>
 
 
     @yield('js')

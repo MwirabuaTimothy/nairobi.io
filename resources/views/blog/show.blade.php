@@ -1,4 +1,4 @@
-@extends('blogs.blog')
+@extends('layouts.blog')
 
 @section('title')
 {{ $blog->title }}

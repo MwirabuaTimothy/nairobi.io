@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="col-md-6 opacity" id="contact">
-                    <h2>CONTACT US / REQUEST A QUOTE</h2>
+                    <h2>CONTACT US</h2>
                     <form action="/contact"  method="post" class="contact-form">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                         <p class="input-block">

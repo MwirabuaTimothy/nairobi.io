@@ -19,7 +19,16 @@ Route::resource('tests', 'TestsController', ['except' => ['create', 'store', 'up
 // Static Routes
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@home'));
 Route::get('/software', array('as' => 'software', 'uses' => 'HomeController@software'));
-Route::get('about', array('as' => 'about', function(){ return View::make('aboutus');}));
+Route::get('/media', array('as' => 'media', 'uses' => 'HomeController@media'));
+Route::get('/events', array('as' => 'events', 'uses' => 'HomeController@events'));
+Route::get('/hub', array('as' => 'hub', 'uses' => 'HomeController@hub'));
+Route::get('/academy', array('as' => 'academy', 'uses' => 'HomeController@academy'));
+Route::get('/community', array('as' => 'community', 'uses' => 'HomeController@community'));
+Route::get('/about', array('as' => 'about', 'uses' => 'HomeController@about'));
+Route::get('/partnerships', array('as' => 'partnerships', 'uses' => 'HomeController@partnerships'));
+Route::get('/contact', array('as' => 'contact', 'uses' => 'HomeController@about'));
+
+// submit the "contact us" form
 Route::post('contact', ['as' => 'contact', 'uses' => 'HomeController@postContact']);
 
 

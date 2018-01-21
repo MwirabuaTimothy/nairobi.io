@@ -35,20 +35,42 @@ class HomeController extends Controller
 
 
 	/**
-     * Show the application dashboard.
+     * Show the named page
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\View\View
      */
     public function software()
     {
         return view('software');
     }
-
-    /**
-     * Show contact form
-     *
-     * @return View
-     */
+    public function events()
+    {
+        return view('events');
+    }
+    public function media()
+    {
+        return view('media');
+    }
+    public function hub()
+    {
+        return view('hub');
+    }
+    public function academy()
+    {
+        return view('academy');
+    }
+    public function community()
+    {
+        return view('community');
+    }
+    public function about()
+    {
+        return view('about');
+    }
+    public function partnerships()
+    {
+        return view('partnerships');
+    }
     public function contact()
     {
         return view('contact');
@@ -58,7 +80,7 @@ class HomeController extends Controller
     /**
      * Send an email to us
      *
-     * @return View
+     * @return \Illuminate\Http\Response
      */
     public function postContact(ContactRequest $r)
     {

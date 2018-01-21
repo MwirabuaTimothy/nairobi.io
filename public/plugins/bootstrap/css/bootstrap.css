@@ -224,6 +224,9 @@ a:focus {
 img {
   vertical-align: middle;
 }
+.img-100 {
+  width: 100%;
+}
 .img-responsive {
   display: block;
   max-width: 100%;

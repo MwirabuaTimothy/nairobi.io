@@ -1,4 +1,4 @@
-@extends('articles.blog')
+@extends('layouts.blog')
 
 @section('title')
 	@parent

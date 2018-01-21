@@ -31,22 +31,29 @@
       <nav id="navigation" class="navigation">
 
         <ul>
-          <?php $home = Request::segment(1) ? route('home') : ''; ?>
-          <!-- <li><a href="{{ $home }}/blog" id="blog">Blog</a></li> -->
-          <li><a href="{{ $home }}/software" class="{{Request::segment(1) == 'software' ? 'active' : '' }}">Software</a></li>
-          <li><a href="{{ $home }}/#events" alt="Coming Soon" class="">Events</a></li>
-          <li><a href="{{ $home }}/#media" alt="Coming Soon" class="">Media</a></li>
-          <li><a href="{{ $home }}/#hub" alt="Coming Soon" class="">The Hub</a></li>
-          <li><a href="{{ $home }}/#academy" alt="Coming Soon" class="">Academy</a></li>
-          <li><a href="{{ $home }}/#community" alt="Coming Soon" class="">Community</a></li>
-          <li><a href="{{ $home }}/#about" alt="Coming Soon" class="">About</a></li>
-          <li><a href="{{ $home }}/#partnerships" alt="Coming Soon" class="">Partnerships</a></li>
+          <?php 
+            $home = Request::segment(1) ? route('home') : ''; 
+            function isActive($page) {
+              return Request::segment(1) == $page ? 'active' : '';
+            }
+          ?>
+          <li><a href="{{ $home }}/software" class="{{isActive('software')}}"><span>Software</span></a></li>
+          <li><a href="{{ $home }}/events" class="{{isActive('events')}}"><span>Events</span></a></li>
+          <!-- <li><a href="{{ $home }}/media" class="{{isActive('media')}}"><span>Media</span></a></li> -->
+          <!-- <li><a href="{{ $home }}/blog" class="{{isActive('blog')}}"><span>Blog</span></a></li> -->
+          <li><a href="{{ $home }}/hub" class="{{isActive('hub')}}"><span>The Hub</span></a></li>
+          <li><a href="{{ $home }}/academy" class="{{isActive('academy')}}"><span>Academy</span></a></li>
+          <li><a href="{{ $home }}/community" class="{{isActive('community')}}"><span>Community</span></a></li>
+          <li><a href="{{ $home }}/about" class="{{isActive('about')}}"><span>About</span></a></li>
+          <li><a href="{{ $home }}/partnerships" class="{{isActive('partnerships')}}"><span>Partnerships</span></a></li>
+          
           <!-- <li><a href="{{ $home }}#about">About</a></li> -->
           <!-- <li><a href="{{ $home }}#folio">Folio</a></li> -->
           <!-- <li><a href="{{ $home }}#partners">Partners</a></li> -->
           <!-- <li><a href="{{ $home }}#testimonials">Testimonials</a></li> -->
           <!-- <li><a href="{{ $home }}#team">Team</a></li> -->
-          <li><a href="#contact">Contact Us</a></li>
+
+          <li><a href="#contact"><span>Contact Us</span></a></li>
         </ul>
 
       </nav><!--/ #navigation-->

@@ -16,7 +16,10 @@ $(document).ready(function(){
 
 
     //fancybox
-    $(".fancybox").fancybox();
+    var el = $(".fancybox")
+    if(el[0]){
+    	el.fancybox();
+    }
 
 
     // add offset on scrolling to hash
