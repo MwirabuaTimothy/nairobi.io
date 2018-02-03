@@ -32,7 +32,7 @@
 
         <ul id="portfolio-items" class="portfolio-items">
 
-            <li class="company mobile mix mix_all opacity2x">
+            <li class="company mix mix_all opacity2x">
 
                 <div class="work-item">
                     <a class="fancybox" rel="group" href="/img/portfolio/pressdesk-big.png" 

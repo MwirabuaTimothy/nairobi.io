@@ -4,7 +4,8 @@
 
     <section id="intro" class="page">
 
-        <img src="/img/bg/sunset.jpg" class="w100"/>
+        <!-- <img src="/img/bg/sunset.jpg" class="w100"/> -->
+        <img src="/img/bg/nairobi.jpg" class="w100"/>
         
         <h1 class="top">Lets Meet</h1>
         <h1 class="bottom">& Talk Tech</h1>
