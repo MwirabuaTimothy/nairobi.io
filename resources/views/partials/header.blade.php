@@ -38,14 +38,14 @@
             }
           ?>
           <li><a href="{{ $home }}/software" class="{{isActive('software')}}"><span>Software</span></a></li>
-          <li><a href="{{ $home }}/events" class="{{isActive('events')}}"><span>Events</span></a></li>
+          <!-- <li><a href="{{ $home }}/events" class="{{isActive('events')}}"><span>Events</span></a></li> -->
           <!-- <li><a href="{{ $home }}/media" class="{{isActive('media')}}"><span>Media</span></a></li> -->
           <!-- <li><a href="{{ $home }}/blog" class="{{isActive('blog')}}"><span>Blog</span></a></li> -->
           <!-- <li><a href="{{ $home }}/hub" class="{{isActive('hub')}}"><span>The Hub</span></a></li> -->
           <!-- <li><a href="{{ $home }}/academy" class="{{isActive('academy')}}"><span>Academy</span></a></li> -->
-          <li><a href="{{ $home }}/community" class="{{isActive('community')}}"><span>Community</span></a></li>
+          <!-- <li><a href="{{ $home }}/community" class="{{isActive('community')}}"><span>Community</span></a></li> -->
           <!-- <li><a href="{{ $home }}/about" class="{{isActive('about')}}"><span>About</span></a></li> -->
-          <li><a href="{{ $home }}/partnerships" class="{{isActive('partnerships')}}"><span>Partnerships</span></a></li>
+          <!-- <li><a href="{{ $home }}/partnerships" class="{{isActive('partnerships')}}"><span>Partnerships</span></a></li> -->
           
           <!-- <li><a href="{{ $home }}#about">About</a></li> -->
           <!-- <li><a href="{{ $home }}#folio">Folio</a></li> -->
