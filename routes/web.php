@@ -26,7 +26,7 @@ Route::get('/academy', array('as' => 'academy', 'uses' => 'HomeController@academ
 Route::get('/community', array('as' => 'community', 'uses' => 'HomeController@community'));
 Route::get('/about', array('as' => 'about', 'uses' => 'HomeController@about'));
 Route::get('/partnerships', array('as' => 'partnerships', 'uses' => 'HomeController@partnerships'));
-Route::get('/contact', array('as' => 'contact', 'uses' => 'HomeController@about'));
+Route::get('/contact', array('as' => 'contact', 'uses' => 'HomeController@home'));
 
 // submit the "contact us" form
 Route::post('contact', ['as' => 'contact', 'uses' => 'HomeController@postContact']);

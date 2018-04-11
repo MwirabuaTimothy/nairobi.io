@@ -95,7 +95,7 @@ class HomeController extends Controller
 
         if($r->get('order')){ // fake a success response
             $success = 'Email has been sent successfully!';
-            return success($success, 'contact');
+            return success($success);
         }
         
         try {
