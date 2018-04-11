@@ -63,6 +63,10 @@
                             <input type="email" name="email" id="email" placeholder="Email *" required="required" value="{{ old('email') }}" />
                         </p>
 
+                        <p class="input-block" id="order">
+                            <input type="text" name="order" id="order" placeholder="Leave this unfilled"  value="{{ old('order') }}" />
+                        </p>
+
                         <p class="input-block">
                             <textarea name="body" id="body" placeholder="Message *" required="required" rows="15">{{ old('body') }}</textarea>   
                         </p>

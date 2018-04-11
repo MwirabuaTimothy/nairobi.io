@@ -91,6 +91,12 @@ class HomeController extends Controller
             // 'subject' => $r->get('subject'),
             'body' => nl2br(e($r->get('body'))),
         ];
+
+
+        if($r->get('order')){ // fake a success response
+            $success = 'Email has been sent successfully!';
+            return success($success, 'contact');
+        }
         
         try {
 

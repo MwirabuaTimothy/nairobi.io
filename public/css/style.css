@@ -645,6 +645,9 @@ body {
 			-webkit-box-shadow: 0 0 10px 1px rgba(226,113,82, .7);
 					box-shadow: 0 0 10px 1px rgba(226,113,82, .7);	
 		}
+		#contact #order {
+			display: none;
+		}
 
 	/* -------------------------------------------------- */
 	/*	Buttons
