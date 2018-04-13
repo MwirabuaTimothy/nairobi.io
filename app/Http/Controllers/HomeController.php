@@ -91,9 +91,8 @@ class HomeController extends Controller
             // 'subject' => $r->get('subject'),
             'body' => nl2br(e($r->get('body'))),
         ];
-
-
-        if($r->get('order')){ // fake a success response
+        
+        if($r->get('order') || isSpam($r)){ // fake a success response
             $success = 'Email has been sent successfully!';
             return success($success);
         }
@@ -113,6 +112,25 @@ class HomeController extends Controller
         }
 
         return error('Email not delivered. Please retry later!');
+    }
+    isSpam($request){
+        $body = $request->get('body');
+        $subject = $request->get('subject');
+        if (strpos($body, 'viagra') !== false 
+         || strpos($subject, 'viagra') !== false
+         || strpos($body, 'ciali') !== false 
+         || strpos($subject, 'ciali') !== false
+         || strpos($body, 'bestsky.info') !== false 
+         || strpos($subject, 'bestsky.info') !== false
+         || strpos($subject, 'SBA Capital') !== false) {
+            return true;
+        }
+        if (strpos($body, 'SBA') !== false 
+        && strpos($subject, 'Capital') !== false
+        && strpos($subject, 'loan') !== false) {
+            return true;
+        }
+        return false
     }
 
 	/**
