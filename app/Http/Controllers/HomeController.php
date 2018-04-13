@@ -126,8 +126,8 @@ class HomeController extends Controller
             return true;
         }
         if (strpos($body, 'SBA') !== false 
-        && strpos($subject, 'Capital') !== false
-        && strpos($subject, 'loan') !== false) {
+        && strpos($body, 'Capital') !== false
+        && strpos($body, 'loan') !== false) {
             return true;
         }
         return false;
