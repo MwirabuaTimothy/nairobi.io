@@ -130,7 +130,7 @@ class HomeController extends Controller
         && strpos($subject, 'loan') !== false) {
             return true;
         }
-        return false
+        return false;
     }
 
 	/**
