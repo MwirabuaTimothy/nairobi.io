@@ -113,7 +113,7 @@ class HomeController extends Controller
 
         return error('Email not delivered. Please retry later!');
     }
-    isSpam($request){
+    public function isSpam($request){
         $body = $request->get('body');
         $subject = $request->get('subject');
         if (strpos($body, 'viagra') !== false 
