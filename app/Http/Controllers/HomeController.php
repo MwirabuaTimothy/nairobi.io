@@ -116,18 +116,18 @@ class HomeController extends Controller
     public function isSpam($request){
         $body = $request->get('body');
         $subject = $request->get('subject');
-        if (strpos($body, 'viagra') !== false 
-         || strpos($subject, 'viagra') !== false
-         || strpos($body, 'ciali') !== false 
-         || strpos($subject, 'ciali') !== false
-         || strpos($body, 'bestsky.info') !== false 
-         || strpos($subject, 'bestsky.info') !== false
-         || strpos($subject, 'SBA Capital') !== false) {
+        if (stripos($body, 'viagra') !== false 
+         || stripos($subject, 'viagra') !== false
+         || stripos($body, 'ciali') !== false 
+         || stripos($subject, 'ciali') !== false
+         || stripos($body, 'bestsky.info') !== false 
+         || stripos($subject, 'bestsky.info') !== false
+         || stripos($subject, 'SBA Capital') !== false) {
             return true;
         }
-        if (strpos($body, 'SBA') !== false 
-        && strpos($body, 'Capital') !== false
-        && strpos($body, 'loan') !== false) {
+        if (stripos($body, 'SBA') !== false 
+        && stripos($body, 'Capital') !== false
+        && stripos($body, 'loan') !== false) {
             return true;
         }
         return false;
