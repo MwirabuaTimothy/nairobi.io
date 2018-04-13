@@ -92,7 +92,7 @@ class HomeController extends Controller
             'body' => nl2br(e($r->get('body'))),
         ];
         
-        if($r->get('order') || isSpam($r)){ // fake a success response
+        if($r->get('order') || $this->isSpam($r)){ // fake a success response
             $success = 'Email has been sent successfully!';
             return success($success);
         }
