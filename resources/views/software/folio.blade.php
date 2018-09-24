@@ -37,7 +37,7 @@
                 <div class="work-item">
                     <a class="fancybox" rel="group" href="/img/portfolio/pressdesk-big.png" 
                     title="PressDesk is a news tracking and curation tool that helps to compile, organize and report on your media coverage. Its meant to be used by communications & public relations professionals – individuals, teams, and companies/firms.
-                    <br>Visit: <a href='http://pressdesk.nairobi.io' target='_blank'>http://pressdesk.nairobi.io</a>">
+                    <br>Visit: <a href='https://pressdesk.co' target='_blank'>https://pressdesk.co</a>">
                         <img src="/img/portfolio/pressdesk.png" alt="" />
                         <div class="image-extra">
                             <hgroup class="extra-content">
@@ -47,7 +47,7 @@
                         </div><!--/ .image-extra-->
                         <!-- <span class="site"><i class="icon-forward"></i></span> -->
                     </a>    
-                    <a class="site" href="http://pressdesk.nairobi.io" target="_blank"><i class="icon-forward"></i></a>
+                    <a class="site" href="https://pressdesk.co" target="_blank"><i class="icon-forward"></i></a>
                 </div><!--/ .work-item-->
 
             </li>
@@ -58,7 +58,7 @@
                     <a class="fancybox" rel="group" href="/img/portfolio/duka-big.png" 
                     title="Duka is a simple accounting platform for small businesses. It is a mobile and web application that enables the businesses to keep track of their sales, expenses and customer loyalty in a quick and efficient way. It was awarded in 2015 as a top SME empowerment tool by the Hague Institute of International Law. 
                     <br>Client: NairobiIO Proprietary Product. 
-                    <br>Visit: <a href='http://duka.io' target='_blank'>http://duka.io</a>">
+                    <br>Visit: <a href='http://duka.nairobi.io' target='_blank'>http://duka.nairobi.io</a>">
                         <img src="/img/portfolio/duka.png" alt="" />
                         <div class="image-extra">
                             <hgroup class="extra-content">
@@ -68,7 +68,7 @@
                         </div><!--/ .image-extra-->
                         <!-- <span class="site"><i class="icon-forward"></i></span> -->
                     </a>    
-                    <a class="site" href="http://duka.io" target="_blank"><i class="icon-forward"></i></a>
+                    <a class="site" href="http://duka.nairobi.io" target="_blank"><i class="icon-forward"></i></a>
                 </div><!--/ .work-item-->
 
             </li>
