@@ -121,11 +121,11 @@
                     <a class="fancybox" rel="group" href="/img/portfolio/quizay-big.png" 
                     title="Quizay is a modern quiz management system that allows schols and organisations to create, administer and sell quizzes, examinations and questionaires in an easy and secure way. Quizay automarks and it allows the examiners to review. The examiners and candidates can analyse the data to track trends and to improve their performance.  
                     <br>Client: Nairobi IO Proprietary Product 
-                    <br>Visit: <a href='http://quizay.com' target='_blank'>http://quizay.com</a>">
+                    <br>Visit: <a href='http://kcpe.quizay.com' target='_blank'>http://kcpe.quizay.com</a>">
                         <img src="/img/portfolio/quizay.png" alt="" />
                         <div class="image-extra">
                             <hgroup class="extra-content">
-                                <h2 class="extra-title">Quizay</h2>
+                                <h2 class="extra-title">Quizay Exams</h2>
                                 <h6 class="extra-category">Web</h6>
                             </hgroup><!--/ .extra-content-->    
                         </div><!--/ .image-extra-->
